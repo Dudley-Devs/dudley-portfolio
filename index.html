@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudley | Web Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="content">
+            <img src="public/img/profile.jpg" alt="Dudley Photo Placeholder">
+            <h1 class="fw-bold">Dudley Motimele</h1>
+            <p class="lead">Web Developer | PHP • JavaScript • MySQL • BSc IT</p>
+            <a href="#projects" class="btn btn-light btn-lg mt-3">
+                <i class="fa-solid fa-code"></i> View My Work
+            </a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="container text-center">
+        <h2><i class="fa-solid fa-user"></i> About Me</h2>
+        <p class="mt-3">Web Developer with 12+ years of freelance experience building secure, scalable applications.
+            Skilled in PHP/Laravel, JavaScript/TypeScript, MySQL, and modern front-end frameworks. BSc IT graduate with
+            cross-industry experience in education, banking, and insurance.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container text-center">
+            <h2><i class="fa-solid fa-lightbulb"></i> Skills</h2>
+            <div class="row justify-content-center mt-4">
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-brands fa-php fa-3x text-primary"></i>
+                    <p>PHP (Laravel)</p>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-brands fa-js fa-3x text-warning"></i>
+                    <p>JavaScript / TypeScript</p>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-solid fa-database fa-3x text-success"></i>
+                    <p>MySQL</p>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-brands fa-bootstrap fa-3x text-purple"></i>
+                    <p>Bootstrap / Tailwind</p>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-brands fa-node-js fa-3x text-success"></i>
+                    <p>Node.js</p>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <i class="fa-brands fa-github fa-3x text-dark"></i>
+                    <p>Git / Version Control</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2 class="text-center"><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://placehold.net/400x400.png" alt="Task Manager Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Task Manager</h5>
+                        <p class="card-text">Laravel + MySQL CRUD app with authentication and Tailwind styling.</p>
+                        <a href="https://github.com/yourusername/task-manager" class="btn btn-primary"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://placehold.net/400x400.png" alt="Book API Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">RESTful API</h5>
+                        <p class="card-text">Node.js + MongoDB API for a book library.</p>
+                        <a href="https://github.com/yourusername/book-api" class="btn btn-primary"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://placehold.net/400x400.png" alt="Portfolio Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Responsive personal portfolio built with Bootstrap.</p>
+                        <a href="https://github.com/yourusername/portfolio" class="btn btn-primary"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center mb-4"><i class="fa-solid fa-envelope"></i> Get In Touch</h2>
+            <div class="row align-items-center">
+
+                <!-- Contact Info -->
+                <div class="col-md-5 text-white mb-4 mb-md-0">
+                    <h4>Contact Info</h4>
+                    <p><i class="fa-solid fa-at"></i> Email:
+                        <a href="mailto:dudley.motimele@gmail.com" class="text-warning">dudley.motimele@gmail.com</a>
+                    </p>
+                    <p><i class="fa-brands fa-linkedin"></i> LinkedIn:
+                        <a href="https://www.linkedin.com/in/dudley-motimele-a13b5276/"
+                            class="text-warning">https://www.linkedin.com/in/dudley-motimele-a13b5276/</a>
+                    </p>
+                    <p><i class="fa-brands fa-github"></i> GitHub:
+                        <a href="https://github.com/Dudley-Devs" class="text-warning">https://github.com/Dudley-Devs</a>
+                    </p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-7">
+                    <form name="contact" class="contact-form" method="POST" data-netlify="true"
+                        netlify-honeypot="bot-field">
+                        <!-- Honeypot field (hidden to humans, traps bots) -->
+                        <input type="hidden" name="form-name" value="contact">
+                        <input type="hidden" name="bot-field">
+
+                        <div class="mb-3 position-relative">
+                            <input type="text" class="form-control custom-input" placeholder="Your Name" required>
+                            <i class="fa-solid fa-user input-icon"></i>
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <input type="email" class="form-control custom-input" placeholder="Your Email" required>
+                            <i class="fa-solid fa-envelope input-icon"></i>
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <textarea class="form-control custom-input" rows="5" placeholder="Your Message"
+                                required></textarea>
+                            <i class="fa-solid fa-pen input-icon"></i>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn custom-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <!-- Success message -->
+                    <div id="formSuccess" class="alert alert-success mt-3 text-center" style="display:none;">
+                        ✅ Thank you! Your message has been sent.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Dudley. All rights reserved.</p>
+    </footer>
+
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>
