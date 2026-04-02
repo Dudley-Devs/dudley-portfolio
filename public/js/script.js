@@ -5,12 +5,9 @@ if (form) {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const data = new FormData(form);
-        const response = await fetch(form.action, {
-            method: form.method,
+        const response = await fetch("/", {
+            method: "POST",
             body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
         });
         if (response.ok) {
             success.style.display = 'block';
