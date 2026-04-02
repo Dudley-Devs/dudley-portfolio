@@ -137,8 +137,10 @@
 
                 <!-- Contact Form -->
                 <div class="col-md-7">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
-                        action="/thank-you.html">
+                    <form id="contactForm" name="contact" method="POST" data-netlify="true"
+                        netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact">
+                        <input type="hidden" name="bot-field">
                         <!-- Honeypot field (hidden to humans, traps bots) -->
                         <input type="hidden" name="form-name" value="contact">
                         <input type="hidden" name="bot-field">

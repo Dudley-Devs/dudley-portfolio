@@ -12,6 +12,7 @@ if (form) {
         if (response.ok) {
             success.style.display = 'block';
             form.reset();
+            console.log("message sent.");
         }
     });
 }
