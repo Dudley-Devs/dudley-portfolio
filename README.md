@@ -16,10 +16,11 @@ It is built with **HTML, CSS, Bootstrap 5, and FontAwesome**, with custom stylin
 - HTML5
 - CSS3
 - Bootstrap 5
+- Javascript
 - FontAwesome Icons
 - Responsive design principles
 
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Dudley-Devs/dudley-portfolio.git
