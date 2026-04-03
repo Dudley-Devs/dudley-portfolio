@@ -141,26 +141,34 @@
                 <div class="col-md-7">
                     <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
                         class="contact-form">
-                        <!-- Honeypot field (hidden to humans, traps bots) -->
                         <input type="hidden" name="form-name" value="contact">
                         <input type="hidden" name="bot-field">
 
                         <div class="mb-3 position-relative">
-                            <input type="text" name="name" class="form-control custom-input" placeholder="Your Name"
-                                required>
+                            <input type="text" name="name" class="form-control custom-input" placeholder="Your Name">
+                            <small class="text-danger error-message">Please enter your
+                                name</small>
                             <i class="fa-solid fa-user input-icon"></i>
                         </div>
 
                         <div class="mb-3 position-relative">
-                            <input type="email" name="email" class="form-control custom-input" placeholder="Your Email"
-                                required>
+                            <input type="text" name="email" class="form-control custom-input" placeholder="Your Email">
+                            <small class="text-danger error-message">Please enter a valid
+                                email</small>
                             <i class="fa-solid fa-envelope input-icon"></i>
                         </div>
 
                         <div class="mb-3 position-relative">
                             <textarea name="message" class="form-control custom-input" rows="5"
-                                placeholder="Your Message" required></textarea>
+                                placeholder="Your Message"></textarea>
+                            <small class="text-danger error-message">Message cannot be
+                                empty</small>
                             <i class="fa-solid fa-pen input-icon"></i>
+                        </div>
+
+                        <!-- Success message -->
+                        <div id="formSuccess" class="alert alert-success mt-3 text-center success-message">
+                            <i class="fa fa-check-circle"></i> Thank you! Your message has been sent.
                         </div>
 
                         <div class="text-center">
@@ -170,10 +178,7 @@
                         </div>
                     </form>
 
-                    <!-- Success message -->
-                    <div id="formSuccess" class="alert alert-success mt-3 text-center" style="display:none;">
-                        ✅ Thank you! Your message has been sent.
-                    </div>
+
                 </div>
             </div>
         </div>

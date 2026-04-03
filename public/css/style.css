@@ -121,6 +121,16 @@ textarea+.input-icon {
     transform: none;
 }
 
+.error-message {
+    color: #ffeb3b !important;
+    font-weight: 600;
+}
+
+.error-message,
+.success-message {
+    display: none;
+}
+
 .custom-btn {
     background: #ffc107;
     color: #212529;
