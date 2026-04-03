@@ -5,7 +5,7 @@ if (form) {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const data = new FormData(form);
-        const response = await fetch("../", {
+        const response = await fetch("/", {
             method: "POST",
             body: data,
         });
